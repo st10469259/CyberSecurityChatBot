@@ -34,7 +34,7 @@ namespace CyberSecurityChatbot
                 if (!string.IsNullOrEmpty(UserName))
                 {
                     isValid = true;
-                    TypeResponse($"SpaceV: Hello {UserName}! I am here to help you stay safe online.");
+                    TypeResponse($"SpaceV: Hello {UserName}! I am here to help you stay online.");
                 }
                 else
                 {
