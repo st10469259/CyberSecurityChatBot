@@ -29,8 +29,8 @@ namespace CyberSecurityChatbot
             Bitmap image = new Bitmap(path);
 
             // Resize for better console fit
-            int width = 150;
-            int height = 70; //(image.Height * width) / image.Width;
+            int width = 140;
+            int height = 60; //(image.Height * width) / image.Width;
             Bitmap resized = new Bitmap(image, new Size(width, height));
 
             // Default color , you can set yours before this line
